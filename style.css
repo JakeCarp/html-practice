@@ -1,0 +1,81 @@
+:root{
+    --primary: navy
+}
+main{
+    display: flex;
+}
+
+header{
+    background-color: var(--primary);
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    height: 5em;
+    margin-top: 20vh;
+    background-color: var(--primary);
+}
+
+.title {
+    font-size: 3em;
+    color: white;
+}
+
+.main-article{
+    padding: 2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article-title{
+    display: flex;
+    justify-content: center;
+}
+.article-content{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.content{
+    font-size: 1.25em;
+}
+.accent{
+    height: 2em;
+    width:50%;
+    background-color: rgba(14, 126, 255, 0.582);
+    margin: 2em;
+}
+.recommended{
+    padding: 6em;
+}
+/* NOTE utility classes */
+
+
+
+
+
+
+
+/* NOTE eliminating default margins */
+body{
+    display:flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 0em;
+}
+p {
+    
+    margin: 0em;
+}
+h3 {
+    margin: 0em;
+}
+h2 {
+    margin: 0em;
+}
+html, body{
+    margin:0em;
+    min: height 100vh;
+}
